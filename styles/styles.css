@@ -64,6 +64,14 @@ p.topic {
 h1 {
     font-size: 20px;
     font-weight: 800;
+
+    /* Improves the hover effect */
+    width: fit-content;
+}
+
+h1:hover {
+    color: var(--yellow);
+    cursor: pointer;
 }
 
 p.description {
