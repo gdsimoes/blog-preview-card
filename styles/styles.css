@@ -64,6 +64,14 @@ p.topic {
 h1 {
     font-size: 20px;
     font-weight: 800;
+
+    /* Improves the hover effect */
+    width: fit-content;
+}
+
+h1:hover {
+    color: var(--yellow);
+    cursor: pointer;
 }
 
 p.description {
@@ -101,4 +109,26 @@ footer.attribution a {
 
 footer.attribution a:hover {
     text-decoration: underline;
+}
+
+@media (min-width: 800px) {
+    main {
+        width: 384px;
+        height: 522px;
+
+        font-size: 14px;
+    }
+
+    .illustration {
+        width: 336px;
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p.description {
+        font-size: 16px;
+    }
 }
