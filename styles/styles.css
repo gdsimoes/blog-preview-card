@@ -90,9 +90,15 @@ footer.attribution {
     bottom: 30px;
 
     font-size: 11px;
+    color: rgba(0, 0, 0, 0.6);
     text-align: center;
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
+footer.attribution a {
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+}
+
+footer.attribution a:hover {
+    text-decoration: underline;
 }
