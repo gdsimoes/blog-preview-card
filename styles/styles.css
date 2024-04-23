@@ -5,11 +5,37 @@
     --black: hsl(0 0% 7%);
 }
 
-html {
+body {
     font-family: "Figtree", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+    background-color: var(--yellow);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100svh;
+}
+
+main {
+    background-color: var(--white);
+
+    width: 327px;
+    height: 501px;
+    padding: 24px;
+
+    border-radius: 20px;
+    border: 1px solid var(--black);
+    box-shadow: 8px 8px 0px 0px #000;
+}
+
+.illustration {
+    width: 100%;
+}
+
+footer.attribution {
+    position: absolute;
+    bottom: 20px;
 }
 
 .attribution {
