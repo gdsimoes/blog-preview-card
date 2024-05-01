@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: <https://github.com/gdsimoes/blog-preview-card>
+-   Solution URL: <https://www.frontendmentor.io/solutions/minimalist-solution-w4GCjR-NJ->
 -   Live Site URL: <https://gdsimoes.github.io/blog-preview-card/>
 
 ## My process
