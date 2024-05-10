@@ -71,9 +71,11 @@ h1 {
     width: fit-content;
 }
 
-h1:hover {
-    color: var(--yellow);
-    cursor: pointer;
+@media (hover: hover) and (pointer: fine) {
+    h1:hover {
+        color: var(--yellow);
+        cursor: pointer;
+    }
 }
 
 p.description {
@@ -109,8 +111,10 @@ footer.attribution a {
     text-decoration: none;
 }
 
-footer.attribution a:hover {
-    text-decoration: underline;
+@media (hover: hover) and (pointer: fine) {
+    footer.attribution a:hover {
+        text-decoration: underline;
+    }
 }
 
 @media (min-width: 800px) {
